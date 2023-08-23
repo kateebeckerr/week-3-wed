@@ -1,0 +1,19 @@
+---
+title: "wed morning stuff"
+format: html
+editor: visual
+---
+
+## How to describe a graph 
+
+Presenting a chart:
+
+-   what's there
+
+-   what x and y axis are there
+
+-   
+
+```{r}
+
+```

@@ -1,0 +1,123 @@
+---
+title: "wed morning stuff"
+format: html
+editor: visual
+---
+
+# Wednesday Lecture
+
+## How to describe a graph 
+
+-   geometric objects: whats showing up in chart area- background panel are axis, plot panel spans range over which ais limits, plot panelw here geom shows up background panel is entire chart
+
+-   theme -\> coordinates(default is cartesian (x,y)) \<- statistical transformations \<- facets(ask gg plot to do work with you breaking single visualization up into panels on distinct groups) \<- geometric objects(using to represent our visuals) \<- aesthetics(describing variables about where things are placed in plot, map variables to aesthetics) \<- data \<- initialize it
+
+## Presenting a chart 
+
+-   what's there
+
+-   what x and y axis are there
+
+-   dont say "as you can see"!
+
+-   is your graph/type/model/presentation even appropriate
+
+-   misleading aces ranges or direction
+
+-   masking data within summary stats
+
+-   does it include measure of uncertainty?
+
+## Ask 
+
+-   **is it correct? (IS IT ACCURATE)**
+
+    -   observations and experimental design
+
+    -   avoid data wrangling and calc mistakes
+
+        -   keep raw data raw (keep a copy)
+
+        -   check wrangling / unit conversions!
+
+        -   have someone else check
+
+        -   compare outcomes to expected/published
+
+        -   reproducibility and detailed annotation
+
+        -   units /labels
+
+            ### is it useful? for who?
+
+            -   too. much
+
+            -   overwhelming legends
+
+            -   lack of useful emphasis
+
+            -   putting things in context
+
+            -   the problem with pie graphs
+
+            -   over mapping aesthetics a
+
+            -   3D almost always no
+
+            -   **accessibility**
+
+-   **does it communicate data responsibly?**
+
+    -   **legend:** expecting audience to read and understand, put them somewhere that reduces eyes jumping back and forth across a whole page
+
+        -   labels are often easier than legends
+
+    -   emphasize the things you want the audience to remember
+
+-   **does it look awesome?**
+
+**sacrificing clarity for something that looks interactive!**
+
+**problems with pie graphs:** humans are bad at comparing and thinking about angles
+
+-   are the main takeaways clear (ex: proportions different enough to notice quickly and easily)
+
+-   avoid a ton of wedges (\>7 too many)
+
+-   aggregate if there are many tiny ones (rest of world)
+
+-   emphasize one by highlighting or having it pop out
+
+-   labels directly on or besides the chart are better than a legal
+
+-   compare bar chart version to see which makes the data story clearer for your audience
+
+**Alternatives for 3 variable viz:**
+
+-   ridge line plots, heat maps, or just facets
+
+-   if facet: one drawback you can lose context of comparing things all together if breaking them up into different panels
+
+-   if there are important thresholds or values of interest, then show those directly
+
+-   angling text is not useful!!! dont want move head
+
+-   include thresholds
+
+```{r}
+
+```
+
+-   Hard for audience to understand / read / interpret
+
+    -   log scales/ transformation
+
+    -   legends for symbols
+
+    -   dual axis plots
+
+    -   3D almost always
+
+    -   stacked anything plots - sometimes great, sometimes eh
+
+    -   bubble pots (area? radius?) exception: maps
